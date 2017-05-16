@@ -1,5 +1,7 @@
 # specter-edn
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.maitria/specter-edn.svg)](https://clojars.org/com.maitria/specter-edn)
+
 Specter paths for working with formatted EDN and Cloure code.
 
 There is one specter path: `SEXPR`.  This navigates to a sequence of
@@ -8,6 +10,8 @@ s-expressions parsed from a string.
 For the `transform` case, `specter-edn` preserves whitespace and comments using
 a sort of diffing algorithm to match new S-expression parts to original parts
 of the parse tree.
+
+
 
 ## Usage
 
