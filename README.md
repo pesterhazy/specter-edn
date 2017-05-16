@@ -9,6 +9,8 @@ For the `transform` case, `specter-edn` preserves whitespace and comments using
 a sort of diffing algorithm to match new S-expression parts to original parts
 of the parse tree.
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.maitria/specter-edn.svg)](https://clojars.org/com.maitria/specter-edn)
+
 ## Usage
 
 ```clojure
